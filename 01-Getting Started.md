@@ -8,5 +8,5 @@ Elasticsearch — масштабируемый полнотекстовый по
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODQyMTExLC0xNjczMDYxNTQ4XX0=
+eyJoaXN0b3J5IjpbMTM3ODQyMTExXX0=
 -->
