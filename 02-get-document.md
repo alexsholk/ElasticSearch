@@ -1,23 +1,4 @@
-# ElasticSearch
-## Получение документа
-### Выборка документа по ID 
-    GET blog/post/1?pretty
-
-Ключ `_source` содержит тот документ, который мы индексировали. ES не использует это значение для поисковых операций, т.к. для поиска используются индексы. Для экономии места ES хранит сжатый исходный документ.
-### Выборка только исходного документа
-Если нам не нужна дополнительная информация, можно получить только содержимое `_source`:
-
-    GET blog/post/1/_source?pretty
-### Выборка определенных полей
-
-    blog/post/1?_source=title&pretty
-
-## Mapping
-Каждый тип имеет свою схему — mapping, также как и реляционная таблица. Mapping генерируется автоматически при индексации документа.
-
-    GET blog/_mapping?pretty
-
-
+# Set up Elasticsearch #
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzMTUyNzRdfQ==
+eyJoaXN0b3J5IjpbMjA4MjA0MjYzMiwzMzMxNTI3NF19
 -->
