@@ -3,6 +3,7 @@ Elasticsearch — масштабируемый полнотекстовый по
 ## Basic Concepts  [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_basic_concepts.html#_basic_concepts)
 
 ## Installation [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html#_installation)
+## Exploring Your Cluster [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html#_installation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjEwNTkyNSwtMTY3MzA2MTU0OF19
+eyJoaXN0b3J5IjpbMTIxMDYwMzAzOSwtMTY3MzA2MTU0OF19
 -->
