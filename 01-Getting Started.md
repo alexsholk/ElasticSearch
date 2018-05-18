@@ -179,15 +179,15 @@ Bulk API не прерывает выполнение операций, если
       "sort": {"_id": {"order": "desc"}},
       "size": 5
     }
-
+Найдёт картины с собаками, которые нарисовали Джон либо Октавиан.  
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MTQ1NzIyLDkzMzAyOTI1NiwxMDQ2MT
-kxMDgxLC0zMDk2MDAzOTcsMTc2NzY5MjUyNiwtMTQxNzg4Nzc0
-LDc2NDA0NDU4NSwxMjYyNzUyMzQ1LC03MTMzMDY5ODMsMTMzOD
-AwMzUzOCwyMDczOTM2Nzc4LDE0MTc3MDg3MzUsMTM3ODQyMTEx
-XX0=
+eyJoaXN0b3J5IjpbLTM1MDIzNzQ0Nyw0NzUxNDU3MjIsOTMzMD
+I5MjU2LDEwNDYxOTEwODEsLTMwOTYwMDM5NywxNzY3NjkyNTI2
+LC0xNDE3ODg3NzQsNzY0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMz
+MwNjk4MywxMzM4MDAzNTM4LDIwNzM5MzY3NzgsMTQxNzcwODcz
+NSwxMzc4NDIxMTFdfQ==
 -->
