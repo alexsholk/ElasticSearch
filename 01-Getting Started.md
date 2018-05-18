@@ -70,12 +70,12 @@ Elasticsearch — масштабируемый полнотекстовый по
     {"update": {"_id":"1"}}  
     {"doc": {"name": "John Doe becomes Jane Doe"}}  
     {"delete": {"_id":"2"}}
-Bulk API не прерывает выполнение операций, если какая-
+Bulk API не прерывает выполнение операций, если какая-нибудь из них не выполнилась. По завершению выполнения в ответе будут содержаться статусы все
 
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTExNzgyNDksMTQxNzcwODczNSwxMz
+eyJoaXN0b3J5IjpbLTE5MjAyOTUxNTIsMTQxNzcwODczNSwxMz
 c4NDIxMTFdfQ==
 -->
