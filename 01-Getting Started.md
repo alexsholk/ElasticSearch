@@ -143,13 +143,22 @@ Bulk API не прерывает выполнение операций, если
     "query": {"match_phrase": {"address": "mill lane"}}
 
 #### Bool query
-Позволяет объединять условия используя булеву логику. 
+Позволяет объединять условия используя булеву логику. Аналог **AND** в SQL запросах:
+
+    GET /bank/_search 
+    {  
+	    "query": {  
+		    "bool": {  
+			    "must": [  
+				    {  "match":  {  "address":  "mill"  }  },  {  "match":  {  "address":  "lane"  }  }  ]  }  }  }
+
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTYwMDM5NywxNzY3NjkyNTI2LC0xND
-E3ODg3NzQsNzY0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMzMwNjk4
-MywxMzM4MDAzNTM4LDIwNzM5MzY3NzgsMTQxNzcwODczNSwxMz
-c4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbMzcxNTQ3MzA3LC0zMDk2MDAzOTcsMTc2Nz
+Y5MjUyNiwtMTQxNzg4Nzc0LDc2NDA0NDU4NSwxMjYyNzUyMzQ1
+LC03MTMzMDY5ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4LDE0MT
+c3MDg3MzUsMTM3ODQyMTExXX0=
 -->
