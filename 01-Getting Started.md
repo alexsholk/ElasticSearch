@@ -188,15 +188,24 @@ Bulk API не прерывает выполнение операций, если
     {  
 	    "query": {
 		    "bool": {
-			    "must":  {  "match_all":  {}  },  "filter":  {  "range":  {  "balance":  {  "gte":  20000,  "lte":  30000  }  }  }  }  }  }
+			    "must": {"match_all": {}}, 
+			    "filter": {
+				    "range": {
+					    "balance": {"gte": 20000, "lte": 30000
+					}  
+				}  
+			} 
+		}  
+	}  
+	
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MTY4MTA0LC0xMjk2NTQyMTU5LDE2NT
-M0MDg3MTIsNDc1MTQ1NzIyLDkzMzAyOTI1NiwxMDQ2MTkxMDgx
-LC0zMDk2MDAzOTcsMTc2NzY5MjUyNiwtMTQxNzg4Nzc0LDc2ND
-A0NDU4NSwxMjYyNzUyMzQ1LC03MTMzMDY5ODMsMTMzODAwMzUz
-OCwyMDczOTM2Nzc4LDE0MTc3MDg3MzUsMTM3ODQyMTExXX0=
+eyJoaXN0b3J5IjpbNjM3OTU3NjEsLTEyOTY1NDIxNTksMTY1Mz
+QwODcxMiw0NzUxNDU3MjIsOTMzMDI5MjU2LDEwNDYxOTEwODEs
+LTMwOTYwMDM5NywxNzY3NjkyNTI2LC0xNDE3ODg3NzQsNzY0MD
+Q0NTg1LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4
+LDIwNzM5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
 -->
