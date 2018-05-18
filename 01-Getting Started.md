@@ -80,16 +80,19 @@ Bulk API не прерывает выполнение операций, если
 
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 Тестовые данные можно сгенерировать с помощью этого [сервиса](https://www.json-generator.com/) или скачать готовый JSON [здесь](https://github.com/elastic/elasticsearch/blob/master/docs/src/test/resources/accounts.json?raw=true).
-#### Загрузка данных
+#### Загрузка данных из файла
 
     curl -H "Content-Type: application/json"  
     -XPOST "localhost:9200/bank/_doc/_bulk?pretty&refresh"  
     --data-binary "@accounts.json"
+    
+#### Простой поиск 
+Поиск может производ
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTAzODMxMSwxMjYyNzUyMzQ1LC03MT
+eyJoaXN0b3J5IjpbMTIyNjk4MTczNCwxMjYyNzUyMzQ1LC03MT
 MzMDY5ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4LDE0MTc3MDg3
 MzUsMTM3ODQyMTExXX0=
 -->
