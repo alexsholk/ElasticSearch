@@ -158,15 +158,17 @@ Bulk API не прерывает выполнение операций, если
 	}
 Если **must** заменить на **should** получится аналог **OR**, то есть достаточно, чтобы выполнялось лишь одно условие, чтобы документы попали в результат. 
 **must_not** — все условия должны НЕ выполняться, чтобы документы попали в результат. 
-Внутри **bool** можно использовать секции must, should, must_not одновременно
+Внутри **bool** можно использовать секции must, should, must_not одновременно. Также можно создавать вложенные bool-запросы:
+
 
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzMDI5MjU2LDEwNDYxOTEwODEsLTMwOT
-YwMDM5NywxNzY3NjkyNTI2LC0xNDE3ODg3NzQsNzY0MDQ0NTg1
-LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNz
-M5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbLTIwODAwMzU1NjUsOTMzMDI5MjU2LDEwND
+YxOTEwODEsLTMwOTYwMDM5NywxNzY3NjkyNTI2LC0xNDE3ODg3
+NzQsNzY0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMz
+M4MDAzNTM4LDIwNzM5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIx
+MTFdfQ==
 -->
