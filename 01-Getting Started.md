@@ -160,15 +160,34 @@ Bulk API не прерывает выполнение операций, если
 **must_not** — все условия должны НЕ выполняться, чтобы документы попали в результат. 
 Внутри **bool** можно использовать секции must, should, must_not одновременно. Также можно создавать вложенные bool-запросы:
 
+    GET products_v6/product/_search
+    {
+      "query": {
+        "bool": {
+          "must": [
+            {"match": {"name": "dog"}},
+            {"bool": {
+              "should": [
+                {"match": {"artist.name": "John"}},
+                {"match": {"artist.name": "Octavian"}}
+              ]
+            }}
+          ]
+        }     
+      },
+      "_source": ["name", "artist.name"], 
+      "sort": {"_id": {"order": "desc"}},
+      "size": 5
+    }
 
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAwMzU1NjUsOTMzMDI5MjU2LDEwND
-YxOTEwODEsLTMwOTYwMDM5NywxNzY3NjkyNTI2LC0xNDE3ODg3
-NzQsNzY0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMz
-M4MDAzNTM4LDIwNzM5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIx
-MTFdfQ==
+eyJoaXN0b3J5IjpbNDc1MTQ1NzIyLDkzMzAyOTI1NiwxMDQ2MT
+kxMDgxLC0zMDk2MDAzOTcsMTc2NzY5MjUyNiwtMTQxNzg4Nzc0
+LDc2NDA0NDU4NSwxMjYyNzUyMzQ1LC03MTMzMDY5ODMsMTMzOD
+AwMzUzOCwyMDczOTM2Nzc4LDE0MTc3MDg3MzUsMTM3ODQyMTEx
+XX0=
 -->
