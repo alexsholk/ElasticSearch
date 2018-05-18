@@ -79,11 +79,12 @@
 Bulk API не прерывает выполнение операций, если какая-нибудь из них не выполнилась. В ответе будут содержаться статусы всех операций в исходном порядке. 
 
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
+Тестовые данные можно сгенерировать с помощью этого [сервиса](https://www.json-generator.com/). 
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Mjc1MjM0NSwtNzEzMzA2OTgzLDEzMz
-gwMDM1MzgsMjA3MzkzNjc3OCwxNDE3NzA4NzM1LDEzNzg0MjEx
-MV19
+eyJoaXN0b3J5IjpbMTM4Mjk5ODg5NCwxMjYyNzUyMzQ1LC03MT
+MzMDY5ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4LDE0MTc3MDg3
+MzUsMTM3ODQyMTExXX0=
 -->
