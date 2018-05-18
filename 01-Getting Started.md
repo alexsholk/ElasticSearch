@@ -4,7 +4,7 @@ Elasticsearch — масштабируемый полнотекстовый по
 **Near Realtime (NRT)** — близко к реальному времени; небольшая задержка (около секунды) с момента индексации документа до момента, когда он будет доступен для поиска.  
 **Cluster** — кластер — совокупность одного или нескольких узлов (Node). У кластера есть уникальное имя, по умолчанию "elasticsearch".
 **Node** — узел — один сервер, являющийся частью кластера. Учавствует в хранении, индексации и поиске.
-**Index** — 
+**Index** — коллекция документов со схожими/
  
 
 ## Installation [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html#_installation)
@@ -13,5 +13,5 @@ Elasticsearch — масштабируемый полнотекстовый по
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDE3OTM0NCwxMzc4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbMTIyNzIzNDE0OSwxMzc4NDIxMTFdfQ==
 -->
