@@ -113,13 +113,19 @@ Bulk API не прерывает выполнение операций, если
 
 #### Введение в Query Language (Query DSL)
 
+
     GET /bank/_search 
-    {  "query":  {  "match_all":  {}  }, "sort":  {  "balance":  {  "order":  "desc"  }  }, "from":  10,  "size":  10  }
+    {  
+        "query": {"match_all": {}}, 
+        "sort": {"balance": {"order": "desc"}}, 
+        "from": 10, 
+        "size": 10  
+    }
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjU3NDM4MCw3NjQwNDQ1ODUsMTI2Mj
+eyJoaXN0b3J5IjpbLTEyMDYwMTYzOCw3NjQwNDQ1ODUsMTI2Mj
 c1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3
 OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
