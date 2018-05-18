@@ -73,9 +73,10 @@ Elasticsearch — масштабируемый полнотекстовый по
 Bulk API не прерывает выполнение операций, если какая-нибудь из них не выполнилась. В ответе будут содержаться статусы всех операций в исходном порядке. 
 
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
+
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1NjY4NDcyLDE0MTc3MDg3MzUsMTM3OD
-QyMTExXX0=
+eyJoaXN0b3J5IjpbMjA3MzkzNjc3OCwxNDE3NzA4NzM1LDEzNz
+g0MjExMV19
 -->
