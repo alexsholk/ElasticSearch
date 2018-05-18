@@ -157,14 +157,14 @@ Bulk API не прерывает выполнение операций, если
 		}
 	}
 Если *must* заменить на *should* получится аналог **OR**, то есть достаточно, чтобы выполнялось лишь одно условие, чтобы документы попали в результат. 
-
+**must_not** — все условия должны НЕ выполняться, чтобы документы попали в результат. 
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTYyNTY2MywtMzA5NjAwMzk3LDE3Nj
-c2OTI1MjYsLTE0MTc4ODc3NCw3NjQwNDQ1ODUsMTI2Mjc1MjM0
-NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3OCwxND
-E3NzA4NzM1LDEzNzg0MjExMV19
+eyJoaXN0b3J5IjpbNDEzNTI0MTYwLC0zMDk2MDAzOTcsMTc2Nz
+Y5MjUyNiwtMTQxNzg4Nzc0LDc2NDA0NDU4NSwxMjYyNzUyMzQ1
+LC03MTMzMDY5ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4LDE0MT
+c3MDg3MzUsMTM3ODQyMTExXX0=
 -->
