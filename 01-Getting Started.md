@@ -200,15 +200,19 @@ Bulk API не прерывает выполнение операций, если
 	
 Типичное применение **range** — фильтрация по диапазону дат или числовых значений. 
 #### Агрегация
-Агрегация позволяет группировать данные и строить статистику по ним. Похоже на GROUP BY в SQL-запросах. ES позволяет производить поиск и возвращать как документы (hits), так и агрегированные данные (aggregations) одновременно (в отличие от MySQL).  
+Агрегация позволяет группировать данные и строить статистику по ним. Похоже на GROUP BY в SQL-запросах. ES позволяет производить поиск и возвращать как документы (hits), так и агрегированные данные (aggregations) одновременно (в отличие от MySQL). Пример:
+
+    GET /bank/_search 
+    {  "size":  0,  "aggs":  {  "group_by_state":  {  "terms":  {  "field":  "state.keyword"  }  }  }  }
+
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzkzMjYwMDAsMTk0NTQyMjM3LDczMD
-Y1NTQwNiwxNDAwNDgyOTUwLC0xMjk2NTQyMTU5LDE2NTM0MDg3
-MTIsNDc1MTQ1NzIyLDkzMzAyOTI1NiwxMDQ2MTkxMDgxLC0zMD
-k2MDAzOTcsMTc2NzY5MjUyNiwtMTQxNzg4Nzc0LDc2NDA0NDU4
-NSwxMjYyNzUyMzQ1LC03MTMzMDY5ODMsMTMzODAwMzUzOCwyMD
-czOTM2Nzc4LDE0MTc3MDg3MzUsMTM3ODQyMTExXX0=
+eyJoaXN0b3J5IjpbLTg0MTA2MDkxMiwxOTQ1NDIyMzcsNzMwNj
+U1NDA2LDE0MDA0ODI5NTAsLTEyOTY1NDIxNTksMTY1MzQwODcx
+Miw0NzUxNDU3MjIsOTMzMDI5MjU2LDEwNDYxOTEwODEsLTMwOT
+YwMDM5NywxNzY3NjkyNTI2LC0xNDE3ODg3NzQsNzY0MDQ0NTg1
+LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNz
+M5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
 -->
