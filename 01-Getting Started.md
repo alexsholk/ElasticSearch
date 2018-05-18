@@ -200,12 +200,12 @@ Bulk API не прерывает выполнение операций, если
 	
 Типичное применение **range** — фильтрация по диапазону дат или числовых значений. 
 #### Агрегация
-Агрегация позволяет группировать данные и строить статистику по ним. ES позволяет производить поиск и возвращать как документы (hits), так и агрегированные данные ()
+Агрегация позволяет группировать данные и строить статистику по ним. Похоже  ES позволяет производить поиск и возвращать как документы (hits), так и агрегированные данные (aggregations) одновременно (в отличие от MySQL).  
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc3OTU5NzUsMTk0NTQyMjM3LDczMD
+eyJoaXN0b3J5IjpbLTEyMzE1ODAwMzYsMTk0NTQyMjM3LDczMD
 Y1NTQwNiwxNDAwNDgyOTUwLC0xMjk2NTQyMTU5LDE2NTM0MDg3
 MTIsNDc1MTQ1NzIyLDkzMzAyOTI1NiwxMDQ2MTkxMDgxLC0zMD
 k2MDAzOTcsMTc2NzY5MjUyNiwtMTQxNzg4Nzc0LDc2NDA0NDU4
