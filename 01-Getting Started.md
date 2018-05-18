@@ -21,7 +21,7 @@ Elasticsearch — масштабируемый полнотекстовый по
 
     PUT /customer?pretty
 #### Индексирование и получение документа
-Создание документа в индексе *customer* с типом *_doc* и *id=1*. В ответе ES бу
+Создание документа в индексе *customer* с типом *_doc* и *id=1*:
 
     PUT /customer/_doc/1?pretty 
     {  
@@ -34,6 +34,6 @@ Elasticsearch — масштабируемый полнотекстовый по
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTEzMTk0OTksMTQxNzcwODczNSwxMz
-c4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbNTU5MTc1ODI5LDE0MTc3MDg3MzUsMTM3OD
+QyMTExXX0=
 -->
