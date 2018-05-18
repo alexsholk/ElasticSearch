@@ -68,12 +68,14 @@ Elasticsearch — масштабируемый полнотекстовый по
 
     POST /customer/_doc/_bulk?pretty 
     {"update": {"_id":"1"}}  
-    {"doc": {"name": "John Doe becomes Jane Doe"}  }  {"delete":{"_id":"2"}}
+    {"doc": {"name": "John Doe becomes Jane Doe"}}  
+    {"delete": {"_id":"2"}}
+Bulk API не прерывает выполнение операций, если какая-
 
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTM1MjU5NCwxNDE3NzA4NzM1LDEzNz
-g0MjExMV19
+eyJoaXN0b3J5IjpbLTE2OTExNzgyNDksMTQxNzcwODczNSwxMz
+c4NDIxMTFdfQ==
 -->
