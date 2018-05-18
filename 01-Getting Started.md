@@ -98,7 +98,7 @@ Bulk API не прерывает выполнение операций, если
  - `max_score` — максимальное значение поля *_score* (релевантность)
  - `_shards` — сколько Shards участвовало в поиске и т. п.
  - `hits` — результаты поиска
- - `hits.total` — количество найденных документов
+ - `hits.total` — количество найденных документов (всего, без учёта ограничения *size*)
  - `hits.hits` — массив найденных документов 
  - `hits.sort` — сортировка 
  - `hits._score` — релевантность
@@ -165,8 +165,8 @@ Bulk API не прерывает выполнение операций, если
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjE5MTA4MSwtMzA5NjAwMzk3LDE3Nj
-c2OTI1MjYsLTE0MTc4ODc3NCw3NjQwNDQ1ODUsMTI2Mjc1MjM0
-NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3OCwxND
-E3NzA4NzM1LDEzNzg0MjExMV19
+eyJoaXN0b3J5IjpbOTMzMDI5MjU2LDEwNDYxOTEwODEsLTMwOT
+YwMDM5NywxNzY3NjkyNTI2LC0xNDE3ODg3NzQsNzY0MDQ0NTg1
+LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNz
+M5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
 -->
