@@ -150,15 +150,20 @@ Bulk API не прерывает выполнение операций, если
 	    "query": {  
 		    "bool": {  
 			    "must": [  
-				    {  "match":  {  "address":  "mill"  }  },  {  "match":  {  "address":  "lane"  }  }  ]  }  }  }
+				    {"match": {"address": "mill"}},
+				    {"match": {"address": "lane"}}  
+				]
+			}
+		}
+	}
 
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxNTQ3MzA3LC0zMDk2MDAzOTcsMTc2Nz
-Y5MjUyNiwtMTQxNzg4Nzc0LDc2NDA0NDU4NSwxMjYyNzUyMzQ1
-LC03MTMzMDY5ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4LDE0MT
-c3MDg3MzUsMTM3ODQyMTExXX0=
+eyJoaXN0b3J5IjpbLTQ3NDA3ODMyMywtMzA5NjAwMzk3LDE3Nj
+c2OTI1MjYsLTE0MTc4ODc3NCw3NjQwNDQ1ODUsMTI2Mjc1MjM0
+NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3OCwxND
+E3NzA4NzM1LDEzNzg0MjExMV19
 -->
