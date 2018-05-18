@@ -13,14 +13,16 @@ Elasticsearch — масштабируемый полнотекстовый по
 ## Exploring Your Cluster [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html#_installation)
 Взаимодействие с ES происходит через REST API. Следующие команды удобно выполнять в [консоли Kibana](https://www.elastic.co/guide/en/kibana/6.2/console-kibana.html). 
 
-
+### Информация о 
     GET /_cat/health?v
+    GET /_cat/nodes?v
+
 
  
 ## Modifying Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_modifying_your_data.html#_modifying_your_data)
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk1NzMxNiwxNDE3NzA4NzM1LDEzNz
-g0MjExMV19
+eyJoaXN0b3J5IjpbNTE2MjIyODA0LDE0MTc3MDg3MzUsMTM3OD
+QyMTExXX0=
 -->
