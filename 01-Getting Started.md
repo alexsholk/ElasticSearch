@@ -94,12 +94,13 @@ Bulk API не прерывает выполнение операций, если
 Вернёт все документы (*q=\**), отсортированные по *account_number*. В ответе также присутствуют следующие поля:
 
  - `took` — время выполнения запроса, мс
- - `timed_out` — 
+ - `timed_out` — время вышло или нет
+ - `_shards` — сколько Shards участвовало в поиске
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1NjkwMDA3LDc2NDA0NDU4NSwxMjYyNz
-UyMzQ1LC03MTMzMDY5ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4
-LDE0MTc3MDg3MzUsMTM3ODQyMTExXX0=
+eyJoaXN0b3J5IjpbLTQ5NTEyMDM1Myw3NjQwNDQ1ODUsMTI2Mj
+c1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3
+OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
