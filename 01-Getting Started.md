@@ -179,13 +179,13 @@ Bulk API не прерывает выполнение операций, если
       "sort": {"_id": {"order": "desc"}},
       "size": 5
     }
-Найдёт картины с собаками, которые нарисовали Джон либо Октавиан.  
+Найдёт картины с собаками, нарисованные Джоном или Октавианом. Следует отметить, что поле _id строковое и сортировка по нему производится посимвольно, что может не отвечать реальным потребностям.   
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDIzNzQ0Nyw0NzUxNDU3MjIsOTMzMD
+eyJoaXN0b3J5IjpbMTY1MzQwODcxMiw0NzUxNDU3MjIsOTMzMD
 I5MjU2LDEwNDYxOTEwODEsLTMwOTYwMDM5NywxNzY3NjkyNTI2
 LC0xNDE3ODg3NzQsNzY0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMz
 MwNjk4MywxMzM4MDAzNTM4LDIwNzM5MzY3NzgsMTQxNzcwODcz
