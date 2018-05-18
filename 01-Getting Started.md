@@ -103,10 +103,17 @@ Bulk API не прерывает выполнение операций, если
  - `hits.sort` — сортировка 
  - `hits._score` — релевантность
 
+Аналогичный запрос, но методом *REST request body*:
+
+    GET /bank/_search 
+    {  
+        "query": {"match_all": {}},  
+        "sort": [{ "account_number":  "asc"  }  ]  }
+
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAzNTI5NjEsNzY0MDQ0NTg1LDEyNj
-I3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNzM5MzY3
-NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbMjA3MDc2OTMwMCw3NjQwNDQ1ODUsMTI2Mj
+c1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3
+OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
