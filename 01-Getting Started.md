@@ -57,11 +57,19 @@ Elasticsearch — масштабируемый полнотекстовый по
     DELETE /customer/_doc/2?pretty
 
 #### Пакетные операции 
+Индексация двух документов:
+
+    POST /customer/_doc/_bulk?pretty 
+    {"index":{"_id":"1"}}  
+    {"name": "John Doe"}
+    {"index":{"_id":"2"}}  
+    {"name": "Jane Doe"}
 
 
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDU0NzEwNCwxNDE3NzA4NzM1LDEzNz
+eyJoaXN0b3J5IjpbLTg1ODAwNzgzMywxNDE3NzA4NzM1LDEzNz
 g0MjExMV19
 -->
