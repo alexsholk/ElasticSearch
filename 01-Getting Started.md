@@ -6,7 +6,7 @@ Elasticsearch — масштабируемый полнотекстовый по
 **Node** — узел — один сервер, являющийся частью кластера. Учавствует в хранении, индексации и поиске.
 **Index** — коллекция документов с одинаковыми/схожими характеристиками. Например, вы можете создать один индекс для хранения пользователей, другой индекс для продуктов и т. д.
 **Type** — тип — использовался как подкатегория для хранения нескольких типов документов в одном индексе, однако на данный момент нельзя создать более одного типа, а в будущем от этой концепции и вовсе откажутся. 
-
+**Document** — 
 
  
 
@@ -16,5 +16,5 @@ Elasticsearch — масштабируемый полнотекстовый по
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzgyNjAyOCwxMzc4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbLTk5NDQxNTk4NywxMzc4NDIxMTFdfQ==
 -->
