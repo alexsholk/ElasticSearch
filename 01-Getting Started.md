@@ -181,16 +181,22 @@ Bulk API не прерывает выполнение операций, если
     }
 Найдёт картины с собаками, нарисованные Джоном или Октавианом. Следует отметить, что поле *_id* строковое и сортировка по нему производится посимвольно, что может не отвечать реальным потребностям. 
 #### Фильтрация
-  `_score` — числовой показателей релевантности документа (иными словами соответствие документа поисковому запросу). **Bool query** позволяет использовать помимо **must**, **should** и **must_not** условий, также и условие **filter**. Его особенность в том, что его использование не влияет на вычисление `_score`.
+  `_score` — числовой показателей релевантности документа (иными словами соответствие документа поисковому запросу). **Bool query** позволяет использовать помимо **must**, **should** и **must_not** условий, также и условие **filter**. Его особенность в том, что его использование не влияет на вычисление `_score`. Пример использования:
+  
+
+    GET /bank/_search 
+    {  
+	    "query": {
+		    "bool": {
+			    "must":  {  "match_all":  {}  },  "filter":  {  "range":  {  "balance":  {  "gte":  20000,  "lte":  30000  }  }  }  }  }  }
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTI0OTg4NTYsLTEyOTY1NDIxNTksMT
-Y1MzQwODcxMiw0NzUxNDU3MjIsOTMzMDI5MjU2LDEwNDYxOTEw
-ODEsLTMwOTYwMDM5NywxNzY3NjkyNTI2LC0xNDE3ODg3NzQsNz
-Y0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAz
-NTM4LDIwNzM5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ
-==
+eyJoaXN0b3J5IjpbNDk4MTY4MTA0LC0xMjk2NTQyMTU5LDE2NT
+M0MDg3MTIsNDc1MTQ1NzIyLDkzMzAyOTI1NiwxMDQ2MTkxMDgx
+LC0zMDk2MDAzOTcsMTc2NzY5MjUyNiwtMTQxNzg4Nzc0LDc2ND
+A0NDU4NSwxMjYyNzUyMzQ1LC03MTMzMDY5ODMsMTMzODAwMzUz
+OCwyMDczOTM2Nzc4LDE0MTc3MDg3MzUsMTM3ODQyMTExXX0=
 -->
