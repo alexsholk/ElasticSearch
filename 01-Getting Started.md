@@ -45,16 +45,16 @@ Elasticsearch — масштабируемый полнотекстовый по
     {  
         "doc": {"name": "John Doe", "age": 20}  
     }
-Джонни повзрослел на 5 лет (*ctx._source* ссылается на текущий документ):
+Джонни постарел на 5 лет:
 
     POST /customer/_doc/1/_update?pretty 
     {  
         "script": "ctx._source.age += 5"
     }
-
+(*ctx._source* ссылается на текущий документ)
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMyMjM0NDksMTQxNzcwODczNSwxMz
-c4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbMTQzMjc0ODMsMTQxNzcwODczNSwxMzc4ND
+IxMTFdfQ==
 -->
