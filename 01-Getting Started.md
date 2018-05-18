@@ -99,12 +99,13 @@ Bulk API не прерывает выполнение операций, если
  - `hits` — результаты поиска
  - `hits.total` — количество найденных документов
  - `hits.hits` — массив найденных документов 
- - 
+ - `hits.sort` — сортировка 
+ -  
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTY0MDI0Myw3NjQwNDQ1ODUsMTI2Mj
+eyJoaXN0b3J5IjpbLTQ2ODkwNzkxNyw3NjQwNDQ1ODUsMTI2Mj
 c1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3
 OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
