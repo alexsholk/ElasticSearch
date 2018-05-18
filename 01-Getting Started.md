@@ -111,11 +111,13 @@ Bulk API не прерывает выполнение операций, если
         "sort": [{"account_number": "asc"}] 
     }
 
+#### Введение в Query Language (Query DSL)
+
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDA3NTYxMiw3NjQwNDQ1ODUsMTI2Mj
+eyJoaXN0b3J5IjpbMTc3MDkzODcyNiw3NjQwNDQ1ODUsMTI2Mj
 c1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3
 OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
