@@ -134,18 +134,18 @@ Bulk API не прерывает выполнение операций, если
 Поиск документов, в адресе которых присутствует "mill":
 
     "query": {"match": {"address": "mill"}}
-Поиск документов,  в адресе которых присутствует "mill" или "lane"Ж
+Поиск документов,  в адресе которых присутствует "mill" или "lane":
 
     "query": {"match": {"address": "mill lane"}}
     
-Поиск 
+Поиск документов, в адресе которых присутствует фраза "mill lane":
 
     "query": {"match_phrase": {"address": "mill lane"}}
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU0MDIwMjcsLTE0MTc4ODc3NCw3Nj
-QwNDQ1ODUsMTI2Mjc1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1
-MzgsMjA3MzkzNjc3OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
+eyJoaXN0b3J5IjpbMTc2NzY5MjUyNiwtMTQxNzg4Nzc0LDc2ND
+A0NDU4NSwxMjYyNzUyMzQ1LC03MTMzMDY5ODMsMTMzODAwMzUz
+OCwyMDczOTM2Nzc4LDE0MTc3MDg3MzUsMTM3ODQyMTExXX0=
 -->
