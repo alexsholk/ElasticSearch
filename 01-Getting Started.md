@@ -52,9 +52,13 @@ Elasticsearch — масштабируемый полнотекстовый по
         "script": "ctx._source.age += 5"
     }
 (*ctx._source* ссылается на текущий документ)
+#### Удаление документа 
+
+    DELETE /customer/_doc/2?pretty
+
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjc0ODMsMTQxNzcwODczNSwxMzc4ND
-IxMTFdfQ==
+eyJoaXN0b3J5IjpbNzA1NDE0MzQxLDE0MTc3MDg3MzUsMTM3OD
+QyMTExXX0=
 -->
