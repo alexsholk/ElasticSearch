@@ -181,15 +181,15 @@ Bulk API не прерывает выполнение операций, если
     }
 Найдёт картины с собаками, нарисованные Джоном или Октавианом. Следует отметить, что поле *_id* строковое и сортировка по нему производится посимвольно, что может не отвечать реальным потребностям. 
 #### Фильтрация
-  `_score` — числовой показателей релевантности документа (иными словами соответствие документа поисковому запросу).  
+  `_score` — числовой показателей релевантности документа (иными словами соответствие документа поисковому запросу). Bool query  
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjYwNDA4MywxNjUzNDA4NzEyLDQ3NT
-E0NTcyMiw5MzMwMjkyNTYsMTA0NjE5MTA4MSwtMzA5NjAwMzk3
-LDE3Njc2OTI1MjYsLTE0MTc4ODc3NCw3NjQwNDQ1ODUsMTI2Mj
-c1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3
-OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
+eyJoaXN0b3J5IjpbLTEyOTY1NDIxNTksMTY1MzQwODcxMiw0Nz
+UxNDU3MjIsOTMzMDI5MjU2LDEwNDYxOTEwODEsLTMwOTYwMDM5
+NywxNzY3NjkyNTI2LC0xNDE3ODg3NzQsNzY0MDQ0NTg1LDEyNj
+I3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNzM5MzY3
+NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
 -->
