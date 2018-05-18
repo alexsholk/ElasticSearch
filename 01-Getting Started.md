@@ -1,5 +1,5 @@
 # Getting Started [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html#getting-started)
-Elasticsearch — масштабируемый полнотекстовый поисково-аналитический движок. ES работает практически в реальном времени. 
+**Elasticsearch** — масштабируемый полнотекстовый поисково-аналитический движок. ES работает практически в реальном времени. 
 ## Basic Concepts  [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_basic_concepts.html#_basic_concepts)
 **Near Realtime (NRT)** — близко к реальному времени; небольшая задержка (около секунды) с момента индексации документа до момента, когда он будет доступен для поиска.  
 
@@ -83,6 +83,7 @@ Bulk API не прерывает выполнение операций, если
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNz
-M5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbMTI2Mjc1MjM0NSwtNzEzMzA2OTgzLDEzMz
+gwMDM1MzgsMjA3MzkzNjc3OCwxNDE3NzA4NzM1LDEzNzg0MjEx
+MV19
 -->
