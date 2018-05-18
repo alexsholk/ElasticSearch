@@ -191,7 +191,7 @@ Bulk API не прерывает выполнение операций, если
 			    "must": {"match_all": {}}, 
 			    "filter": {
 				    "range": {
-					    "balance": {"gte": 20000, "lte": 30000
+					    "balance": {"gte": 20000, "lte": 30000}
 					}  
 				}  
 			} 
@@ -203,9 +203,9 @@ Bulk API не прерывает выполнение операций, если
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3OTU3NjEsLTEyOTY1NDIxNTksMTY1Mz
-QwODcxMiw0NzUxNDU3MjIsOTMzMDI5MjU2LDEwNDYxOTEwODEs
-LTMwOTYwMDM5NywxNzY3NjkyNTI2LC0xNDE3ODg3NzQsNzY0MD
-Q0NTg1LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4
-LDIwNzM5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbMTQwMDQ4Mjk1MCwtMTI5NjU0MjE1OSwxNj
+UzNDA4NzEyLDQ3NTE0NTcyMiw5MzMwMjkyNTYsMTA0NjE5MTA4
+MSwtMzA5NjAwMzk3LDE3Njc2OTI1MjYsLTE0MTc4ODc3NCw3Nj
+QwNDQ1ODUsMTI2Mjc1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1
+MzgsMjA3MzkzNjc3OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
