@@ -91,11 +91,14 @@ Bulk API не прерывает выполнение операций, если
 
     GET /bank/_search?q=*&sort=account_number:asc&pretty
 
-Вернёт все документы (*q=\**), отсортированные по 
+Вернёт все документы (*q=\**), отсортированные по *account_number*. В ответе также присутствуют следующие поля:
+
+ - `took` — вре
+
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ0Mzc3MjksNzY0MDQ0NTg1LDEyNj
-I3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNzM5MzY3
-NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbLTgxMjM1NzI1OCw3NjQwNDQ1ODUsMTI2Mj
+c1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3
+OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
