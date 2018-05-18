@@ -37,11 +37,13 @@ Elasticsearch — масштабируемый полнотекстовый по
 
     DELETE /customer?pretty
 
- 
 ## Modifying Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_modifying_your_data.html#_modifying_your_data)
+
+
+
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDAxNjYxNjYsMTQxNzcwODczNSwxMz
-c4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbMzk3MDA3NDkwLDE0MTc3MDg3MzUsMTM3OD
+QyMTExXX0=
 -->
