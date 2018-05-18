@@ -64,12 +64,16 @@ Elasticsearch — масштабируемый полнотекстовый по
     {"name": "John Doe"}
     {"index":{"_id":"2"}}  
     {"name": "Jane Doe"}
+Обновление первого и удаление второго документа:
 
+    POST /customer/_doc/_bulk?pretty 
+    {"update": {"_id":"1"}}  
+    {"doc": {"name": "John Doe becomes Jane Doe"}  }  {"delete":{"_id":"2"}}
 
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODAwNzgzMywxNDE3NzA4NzM1LDEzNz
+eyJoaXN0b3J5IjpbLTc3NTM1MjU5NCwxNDE3NzA4NzM1LDEzNz
 g0MjExMV19
 -->
