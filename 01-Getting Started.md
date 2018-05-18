@@ -113,11 +113,12 @@ Bulk API не прерывает выполнение операций, если
 
 #### Введение в Query Language (Query DSL)
 
+    "query": {"match_all": {}},
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDkzODcyNiw3NjQwNDQ1ODUsMTI2Mj
-c1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3
-OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
+eyJoaXN0b3J5IjpbLTE3NzgzMzgxNjcsNzY0MDQ0NTg1LDEyNj
+I3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNzM5MzY3
+NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
 -->
