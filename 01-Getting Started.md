@@ -20,7 +20,7 @@ Elasticsearch — масштабируемый полнотекстовый по
 #### Создание индекса 
 
     PUT /customer?pretty
-#### Индексирование и получение документа
+#### Индексирование документа
 Создание документа в индексе *customer* с типом *_doc* и *id=1*:
 
     PUT /customer/_doc/1?pretty 
@@ -28,12 +28,16 @@ Elasticsearch — масштабируемый полнотекстовый по
         "name":  "John Doe"  
     }
 
+В ответе будет содержаться информация о выполнении данного запроса.
+#### Получение документа 
+
+    GET /customer/_doc/1?pretty
 
  
 ## Modifying Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_modifying_your_data.html#_modifying_your_data)
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MTc1ODI5LDE0MTc3MDg3MzUsMTM3OD
+eyJoaXN0b3J5IjpbODE5MDg5NDU5LDE0MTc3MDg3MzUsMTM3OD
 QyMTExXX0=
 -->
