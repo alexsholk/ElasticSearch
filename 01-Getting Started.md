@@ -126,15 +126,16 @@ Bulk API не прерывает выполнение операций, если
 
     "_source":  ["account_number",  "balance"]
 
-#### Поиск по точному значению поля
+#### Поиск по значению поля 
 
-    "query":  {"match": {"account_number":  20  }  }
+    "query":  {"match": {"account_number": 20}}
     
+
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2NDAxMDg0LC0xNDE3ODg3NzQsNzY0MD
+eyJoaXN0b3J5IjpbNDY1NTYyMTc1LC0xNDE3ODg3NzQsNzY0MD
 Q0NTg1LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4
 LDIwNzM5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
 -->
