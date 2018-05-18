@@ -121,11 +121,17 @@ Bulk API не прерывает выполнение операций, если
         "from": 10, 
         "size": 10  
     }
+#### Выборка указанных полей
+Укажите в запросе нужные поля:
+
+    "_source":  ["account_number",  "balance"]
+
+    
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDMxMzg1Nyw3NjQwNDQ1ODUsMTI2Mj
+eyJoaXN0b3J5IjpbLTE0MTc4ODc3NCw3NjQwNDQ1ODUsMTI2Mj
 c1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3
 OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
