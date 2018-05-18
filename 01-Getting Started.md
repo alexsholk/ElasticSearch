@@ -199,15 +199,16 @@ Bulk API не прерывает выполнение операций, если
 	}  
 	
 Типичное применение **range** — фильтрация по диапазону дат или числовых значений. 
-
+#### Агрегация
+Агрегация позволяет группировать данные и строить статистику по ним
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwNjU1NDA2LDE0MDA0ODI5NTAsLTEyOT
-Y1NDIxNTksMTY1MzQwODcxMiw0NzUxNDU3MjIsOTMzMDI5MjU2
-LDEwNDYxOTEwODEsLTMwOTYwMDM5NywxNzY3NjkyNTI2LC0xND
-E3ODg3NzQsNzY0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMzMwNjk4
-MywxMzM4MDAzNTM4LDIwNzM5MzY3NzgsMTQxNzcwODczNSwxMz
-c4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MjgwNzQ3MDksNzMwNjU1NDA2LDE0MD
+A0ODI5NTAsLTEyOTY1NDIxNTksMTY1MzQwODcxMiw0NzUxNDU3
+MjIsOTMzMDI5MjU2LDEwNDYxOTEwODEsLTMwOTYwMDM5NywxNz
+Y3NjkyNTI2LC0xNDE3ODg3NzQsNzY0MDQ0NTg1LDEyNjI3NTIz
+NDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNzM5MzY3NzgsMT
+QxNzcwODczNSwxMzc4NDIxMTFdfQ==
 -->
