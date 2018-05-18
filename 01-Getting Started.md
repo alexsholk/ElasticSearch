@@ -203,16 +203,22 @@ Bulk API не прерывает выполнение операций, если
 Агрегация позволяет группировать данные и строить статистику по ним. Похоже на GROUP BY в SQL-запросах. ES позволяет производить поиск и возвращать как документы (hits), так и агрегированные данные (aggregations) одновременно (в отличие от MySQL). Пример:
 
     GET /bank/_search 
-    {  "size":  0,  "aggs":  {  "group_by_state":  {  "terms":  {  "field":  "state.keyword"  }  }  }  }
+    {  
+	    "aggs": {  
+		    "group_by_state": {  
+			    "terms": {"field": "state.keyword"}  
+			}
+		}
+	}
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTA2MDkxMiwxOTQ1NDIyMzcsNzMwNj
-U1NDA2LDE0MDA0ODI5NTAsLTEyOTY1NDIxNTksMTY1MzQwODcx
-Miw0NzUxNDU3MjIsOTMzMDI5MjU2LDEwNDYxOTEwODEsLTMwOT
-YwMDM5NywxNzY3NjkyNTI2LC0xNDE3ODg3NzQsNzY0MDQ0NTg1
-LDEyNjI3NTIzNDUsLTcxMzMwNjk4MywxMzM4MDAzNTM4LDIwNz
-M5MzY3NzgsMTQxNzcwODczNSwxMzc4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbNTk2MzAyNDk3LDE5NDU0MjIzNyw3MzA2NT
+U0MDYsMTQwMDQ4Mjk1MCwtMTI5NjU0MjE1OSwxNjUzNDA4NzEy
+LDQ3NTE0NTcyMiw5MzMwMjkyNTYsMTA0NjE5MTA4MSwtMzA5Nj
+AwMzk3LDE3Njc2OTI1MjYsLTE0MTc4ODc3NCw3NjQwNDQ1ODUs
+MTI2Mjc1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3Mz
+kzNjc3OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
