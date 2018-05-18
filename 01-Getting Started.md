@@ -21,12 +21,18 @@ Elasticsearch — масштабируемый полнотекстовый по
 
     PUT /customer?pretty
 #### Индексирование и получение документа
+Создание документа в индек
+
+    PUT /customer/_doc/1?pretty 
+    {  
+        "name":  "John Doe"  
+    }
 
  
 ## Modifying Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_modifying_your_data.html#_modifying_your_data)
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzE0NzUzNywxNDE3NzA4NzM1LDEzNz
+eyJoaXN0b3J5IjpbMTgxMzAxNzE0MSwxNDE3NzA4NzM1LDEzNz
 g0MjExMV19
 -->
