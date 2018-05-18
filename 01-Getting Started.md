@@ -43,14 +43,17 @@ Elasticsearch — масштабируемый полнотекстовый по
 
     POST /customer/_doc/1/_update?pretty 
     {  
-        "doc": {"name": "Jane Doe", "age": 20}  
+        "doc": {"name": "John Doe", "age": 20}  
     }
 
-
+    POST /customer/_doc/1/_update?pretty 
+    {  
+        "script": "ctx._source.age += 5"
+    }
 
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzc3NjUxMiwxNDE3NzA4NzM1LDEzNz
-g0MjExMV19
+eyJoaXN0b3J5IjpbOTczNTE0MjUwLDE0MTc3MDg3MzUsMTM3OD
+QyMTExXX0=
 -->
