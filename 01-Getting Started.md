@@ -143,13 +143,13 @@ Bulk API не прерывает выполнение операций, если
     "query": {"match_phrase": {"address": "mill lane"}}
 
 #### Bool query
-
+Позволяет объединять условия используя булеву логику. 
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMxMTk3NDIsMTc2NzY5MjUyNiwtMT
-QxNzg4Nzc0LDc2NDA0NDU4NSwxMjYyNzUyMzQ1LC03MTMzMDY5
-ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4LDE0MTc3MDg3MzUsMT
-M3ODQyMTExXX0=
+eyJoaXN0b3J5IjpbLTMwOTYwMDM5NywxNzY3NjkyNTI2LC0xND
+E3ODg3NzQsNzY0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMzMwNjk4
+MywxMzM4MDAzNTM4LDIwNzM5MzY3NzgsMTQxNzcwODczNSwxMz
+c4NDIxMTFdfQ==
 -->
