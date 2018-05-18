@@ -200,15 +200,15 @@ Bulk API не прерывает выполнение операций, если
 	
 Типичное применение **range** — фильтрация по диапазону дат или числовых значений. 
 #### Агрегация
-Агрегация позволяет группировать данные и строить статистику по ним. 
+Агрегация позволяет группировать данные и строить статистику по ним. ES позволяет производить поиск и возвращать как документы (hits), так и а
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTQyMjM3LDczMDY1NTQwNiwxNDAwND
-gyOTUwLC0xMjk2NTQyMTU5LDE2NTM0MDg3MTIsNDc1MTQ1NzIy
-LDkzMzAyOTI1NiwxMDQ2MTkxMDgxLC0zMDk2MDAzOTcsMTc2Nz
-Y5MjUyNiwtMTQxNzg4Nzc0LDc2NDA0NDU4NSwxMjYyNzUyMzQ1
-LC03MTMzMDY5ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4LDE0MT
-c3MDg3MzUsMTM3ODQyMTExXX0=
+eyJoaXN0b3J5IjpbOTQzOTE3MDIxLDE5NDU0MjIzNyw3MzA2NT
+U0MDYsMTQwMDQ4Mjk1MCwtMTI5NjU0MjE1OSwxNjUzNDA4NzEy
+LDQ3NTE0NTcyMiw5MzMwMjkyNTYsMTA0NjE5MTA4MSwtMzA5Nj
+AwMzk3LDE3Njc2OTI1MjYsLTE0MTc4ODc3NCw3NjQwNDQ1ODUs
+MTI2Mjc1MjM0NSwtNzEzMzA2OTgzLDEzMzgwMDM1MzgsMjA3Mz
+kzNjc3OCwxNDE3NzA4NzM1LDEzNzg0MjExMV19
 -->
