@@ -87,12 +87,15 @@ Bulk API не прерывает выполнение операций, если
     --data-binary "@accounts.json"
     
 #### Простой поиск 
-Поиск может производиться путём передачи параметров в [REST request URI](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/search-uri-request.html) либо в [REST request body](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/search-request-body.html).
+Поиск может производиться путём передачи параметров в *REST request URI* либо в *REST request body*. Первый вариант:
+
+    GET /bank/_search?q=*&sort=account_number:asc&pretty
+
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjcxNjYyNDksMTI2Mjc1MjM0NSwtNz
-EzMzA2OTgzLDEzMzgwMDM1MzgsMjA3MzkzNjc3OCwxNDE3NzA4
-NzM1LDEzNzg0MjExMV19
+eyJoaXN0b3J5IjpbNzY0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMz
+MwNjk4MywxMzM4MDAzNTM4LDIwNzM5MzY3NzgsMTQxNzcwODcz
+NSwxMzc4NDIxMTFdfQ==
 -->
