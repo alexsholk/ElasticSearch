@@ -9,13 +9,13 @@ Elasticsearch — масштабируемый полнотекстовый по
 **Document** — базовая единица информации, которая может быть проиндексирована. Формат — JSON. Документу должен быть назначен тип внутри индекса. 
 **Shards & Replicas** — Elasticsearch предоставляет возможность подразделить ваш индекс на несколько частей, называемых Shards ("осколками"). При создании индекса можно указать количество Shards. Shards могут распологаться на разных узлах, тем самым обеспечивая горизонтальное масштабирование. Replica — копия данных, для отказоустойчивости и увеличения производительности. 
 ## Installation [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html#_installation)
-Для установки требуется Java 8. 
+Для установки требуется Java 8. Подробнее об установке можно прочитать [здесь](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html).
 
 ## Exploring Your Cluster [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html#_installation)
 ## Modifying Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_modifying_your_data.html#_modifying_your_data)
 ## Exploring Your Data [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_exploring_your_data.html#_exploring_your_data)
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTgzMjE1MDYsMTQxNzcwODczNSwxMz
-c4NDIxMTFdfQ==
+eyJoaXN0b3J5IjpbMTk1MDA0NTE4NiwxNDE3NzA4NzM1LDEzNz
+g0MjExMV19
 -->
