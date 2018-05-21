@@ -1,5 +1,5 @@
 # API Conventions [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/api-conventions.html#api-conventions)
-Обращение к Elasticsearch API идёт в формате JSON поверх HTTP.    
+Обращение к Elasticsearch API производится в формате JSON поверх HTTP.    
 ## Multiple Indices [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/multi-index.html#multi-index)
 Большинство API, имеющие параметр index, также могут работать и с несколькими индексами одновременно. Для этого указывается `_all` вместо конкретного индекса; список индексов через запятую (`index1, index2`); шаблоны со звёздочкой и исключения с минусом (`index*,-index5`). 
 Все мультииндексовые API поддерживают следующие query-string параметры:
@@ -58,7 +58,7 @@ Query-string параметр `flat_settings` уменьшает вложенн�
 
 В таком случае ES будет отклонять запросы с указанием индекса в теле запроса. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTUxOTAxNywxNTk2NzYyMTUwLDEyMD
+eyJoaXN0b3J5IjpbMTc4ODUxNjA5NiwxNTk2NzYyMTUwLDEyMD
 YzMzY0NDMsMTEyMTYzODY4MiwtMjQxOTI4MzUwLDMwODE1NjAx
 MiwxMzYxMTUyNDA3LC0xMjEwNDYxMTI0LC03MzUxMDM1MzUsLT
 E5NDc4OTgxNjAsLTIwODI2NzkzMDJdfQ==
