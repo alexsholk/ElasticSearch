@@ -35,11 +35,14 @@ Query-string-параметр позволяет указать поля, кот
 
     GET /_search?q=*&filter_path=took,hits.hits._id,hits.hits._score
 При указании полей можно использовать шаблоны со звёздочкой и даже с двумя звёздочками (когда путь к полю неизвестен/произвольный). Также можно исключить некоторые поля поставив минус перед именем. Подробности [тут](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options-response-filtering). 
-Однако если 
+Однако если нужно отфильтровать поля из _source, нужно воспользоваться комбинацией параметров filter_path и _source:
+
+    GET /_search?filter_path=hits.hits._source&_source=title
+
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDM3MzgwOCwzMDgxNTYwMTIsMTM2MT
+eyJoaXN0b3J5IjpbLTI0MTkyODM1MCwzMDgxNTYwMTIsMTM2MT
 E1MjQwNywtMTIxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4
 MTYwLC0yMDgyNjc5MzAyXX0=
 -->
