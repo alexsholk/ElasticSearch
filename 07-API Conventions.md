@@ -34,11 +34,11 @@ logstash-2018.05.21` выглядит следующим образом:
 Query-string-параметр позволяет указать поля, которые нужно вернуть в ответе, например:
 
     GET /_search?q=*&filter_path=took,hits.hits._id,hits.hits._score
-
+При указании полей можно использовать шаблоны со звёздочкой и даже с двумя звёздочками (когда путь к полю произвольный)
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODEwMDk4MCwxMzYxMTUyNDA3LC0xMj
+eyJoaXN0b3J5IjpbLTM1NzQ4MjA5OSwxMzYxMTUyNDA3LC0xMj
 EwNDYxMTI0LC03MzUxMDM1MzUsLTE5NDc4OTgxNjAsLTIwODI2
 NzkzMDJdfQ==
 -->
