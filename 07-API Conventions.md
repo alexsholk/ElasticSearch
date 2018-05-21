@@ -26,11 +26,12 @@ logstash-2018.05.21` выглядит следующим образом:
 ## Common options [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options)
 Общие опции, применимые ко всем REST API:
 - ?pretty=true — форматированный JSON в ответе
-- ?format=yaml — ответ в форма YAML 
+- ?format=yaml — ответ в формате YAML
+- ?human=true — возврат  
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM1MzUyNzAsMTM2MTE1MjQwNywtMT
-IxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4MTYwLC0yMDgy
-Njc5MzAyXX0=
+eyJoaXN0b3J5IjpbMjAyODc3Njk2NCwxMzYxMTUyNDA3LC0xMj
+EwNDYxMTI0LC03MzUxMDM1MzUsLTE5NDc4OTgxNjAsLTIwODI2
+NzkzMDJdfQ==
 -->
