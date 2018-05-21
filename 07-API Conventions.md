@@ -29,11 +29,11 @@ logstash-2018.05.21` выглядит следующим образом:
 - ?format=yaml — ответ в формате YAML
 - ?human=true — возврат значений даты, количества байт в удобном формате (1h, 1kb), помимо значений в миллисекундах и байтах. По умолчанию выключен. 
 #### Даты и математика
-В условиях наподобие gt и lt можно использовать выражения такого плана: now+1h,  
+В условиях наподобие gt и lt можно использовать выражения такого плана: now+1h (через час), now/d (начало сегодняшнего дня 00:00). Подробнее в оригинале.  
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzczNDk1OSwxMzYxMTUyNDA3LC0xMj
-EwNDYxMTI0LC03MzUxMDM1MzUsLTE5NDc4OTgxNjAsLTIwODI2
-NzkzMDJdfQ==
+eyJoaXN0b3J5IjpbNTgyMjkyMjAwLDEzNjExNTI0MDcsLTEyMT
+A0NjExMjQsLTczNTEwMzUzNSwtMTk0Nzg5ODE2MCwtMjA4MjY3
+OTMwMl19
 -->
