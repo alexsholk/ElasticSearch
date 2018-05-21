@@ -39,10 +39,11 @@ Query-string-параметр позволяет указать поля, кот
 
     GET /_search?filter_path=hits.hits._source&_source=title
 
+#### Пло
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTkyODM1MCwzMDgxNTYwMTIsMTM2MT
-E1MjQwNywtMTIxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4
-MTYwLC0yMDgyNjc5MzAyXX0=
+eyJoaXN0b3J5IjpbLTIxNzQ3OTQ2LC0yNDE5MjgzNTAsMzA4MT
+U2MDEyLDEzNjExNTI0MDcsLTEyMTA0NjExMjQsLTczNTEwMzUz
+NSwtMTk0Nzg5ODE2MCwtMjA4MjY3OTMwMl19
 -->
