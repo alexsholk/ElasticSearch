@@ -2,7 +2,7 @@
 Query DSL — синтаксис запросов, основанный на JSON, представляющий собой древовидную структуру, состоящую из двух типов узлов:
 
  - Простые (Leaf, листья) — запрос, направленный на поиск определенного значения в определенном поле (match, term, range). Могут использоваться сами по себе. 
- - Составные — содержит простые или составные запросы, для логического объединения (bool) либо для изменения поведения (constant_score). 
+ - Составные (Compound) — содержит простые или составные запросы, для логического объединения (bool) либо для изменения поведения (constant_score). 
 
 
 ## Query and filter context [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-filter-context.html#query-filter-context)
@@ -17,5 +17,5 @@ Query DSL — синтаксис запросов, основанный на JSO
 ## Minimum Should Match [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html#query-dsl-minimum-should-match)
 ## Multi Term Query Rewrite [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-multi-term-rewrite.html#query-dsl-multi-term-rewrite)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTg5NzA5OCwxMjYwMDgzMzkwXX0=
+eyJoaXN0b3J5IjpbLTE2MDc5MDQ5MzQsMTI2MDA4MzM5MF19
 -->
