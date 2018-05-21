@@ -30,10 +30,12 @@ logstash-2018.05.21` выглядит следующим образом:
 - ?human=true — возврат значений даты, количества байт в удобном формате (1h, 1kb), помимо значений в миллисекундах и байтах. По умолчанию выключен. 
 #### Даты и математика
 В условиях наподобие gt и lt можно использовать выражения такого плана: now+1h (через час), now/d (начало сегодняшнего дня 00:00). Подробнее в [оригинале](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#date-math).  
+#### Фильтрация ответа
+Query-string-параметр позволяет указать поля, которые нужно вернуть в ответе. 
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA3NzA1OTcsMTM2MTE1MjQwNywtMT
+eyJoaXN0b3J5IjpbLTExMjA0OTMyOTksMTM2MTE1MjQwNywtMT
 IxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4MTYwLC0yMDgy
 Njc5MzAyXX0=
 -->
