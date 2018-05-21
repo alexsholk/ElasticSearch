@@ -214,13 +214,13 @@ Bulk API не прерывает выполнение операций, если
 
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
-ES позволяет хранить данные и предоставляет API для выборки по разным критериям. Запросы к ES осуществляются 
+Мы познакомились с основными концепциями ES позволяет хранить данные и предоставляет API для выборки данных по разным критериям. Запросы к ES осуществляются преимущественно в формате JSON. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNTYzNTU2NiwtMTk0OTM0NTM1Niw1OT
-YzMDI0OTcsMTk0NTQyMjM3LDczMDY1NTQwNiwxNDAwNDgyOTUw
-LC0xMjk2NTQyMTU5LDE2NTM0MDg3MTIsNDc1MTQ1NzIyLDkzMz
-AyOTI1NiwxMDQ2MTkxMDgxLC0zMDk2MDAzOTcsMTc2NzY5MjUy
-NiwtMTQxNzg4Nzc0LDc2NDA0NDU4NSwxMjYyNzUyMzQ1LC03MT
-MzMDY5ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4LDE0MTc3MDg3
-MzVdfQ==
+eyJoaXN0b3J5IjpbMjYwOTUwNjgzLC0xOTQ5MzQ1MzU2LDU5Nj
+MwMjQ5NywxOTQ1NDIyMzcsNzMwNjU1NDA2LDE0MDA0ODI5NTAs
+LTEyOTY1NDIxNTksMTY1MzQwODcxMiw0NzUxNDU3MjIsOTMzMD
+I5MjU2LDEwNDYxOTEwODEsLTMwOTYwMDM5NywxNzY3NjkyNTI2
+LC0xNDE3ODg3NzQsNzY0MDQ0NTg1LDEyNjI3NTIzNDUsLTcxMz
+MwNjk4MywxMzM4MDAzNTM4LDIwNzM5MzY3NzgsMTQxNzcwODcz
+NV19
 -->
