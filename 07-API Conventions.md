@@ -24,7 +24,7 @@ logstash-2018.05.21` выглядит следующим образом:
 Остальные опции можно посмотреть в оригинальной [статье](https://www.elastic.co/guide/en/elasticsearch/reference/current/date-math-index-names.html#date-math-index-names). 
 
 ## Common options [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options)
-Общие опции, применимые ко всем REST API:
+#### Общие опции, применимые ко всем REST API:
 - ?pretty=true — форматированный JSON в ответе
 - ?format=yaml — ответ в формате YAML
 - ?human=true — возврат значений даты, количества байт в удобном формате (1h, 1kb), помимо значений в миллисекундах и байтах. По умолчанию выключен. 
@@ -33,7 +33,7 @@ logstash-2018.05.21` выглядит следующим образом:
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxMDg0MjUxLDEzNjExNTI0MDcsLTEyMT
-A0NjExMjQsLTczNTEwMzUzNSwtMTk0Nzg5ODE2MCwtMjA4MjY3
-OTMwMl19
+eyJoaXN0b3J5IjpbLTEzNTA3NzA1OTcsMTM2MTE1MjQwNywtMT
+IxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4MTYwLC0yMDgy
+Njc5MzAyXX0=
 -->
