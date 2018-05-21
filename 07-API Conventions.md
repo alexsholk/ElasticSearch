@@ -5,12 +5,12 @@
 Все мультииндексовые API поддерживают следующие query-string-параметры:
 - ignore_unavailable — проигнорировать несуществующие индексы (не выдавать ошибку)
 - allow_no_indices — проигнорировать отсутствие индексов, соответствующих шаблону со звездочкой либо значению _all.
-- expand_wildcards — контролирует поведение шаблонов со звёздочкой: open — совпадение с открытыми индексами, 
+- expand_wildcards — контролирует поведение шаблонов со звёздочкой: open — совпадение с открытыми индексами, closed — с закрытыми, all — со всеми, none — 
 
 ## Date math support in index names [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/date-math-index-names.html#date-math-index-names)
 ## Common options [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options)
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc2MTQwMTIsLTEyMTA0NjExMjQsLT
-czNTEwMzUzNSwtMTk0Nzg5ODE2MCwtMjA4MjY3OTMwMl19
+eyJoaXN0b3J5IjpbLTg3NjUyODIyMCwtMTIxMDQ2MTEyNCwtNz
+M1MTAzNTM1LC0xOTQ3ODk4MTYwLC0yMDgyNjc5MzAyXX0=
 -->
