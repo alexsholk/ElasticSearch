@@ -13,7 +13,7 @@
     <static_name{date_math_expr{date_format|time_zone}}>
 
  Например, поиск по сегодняшнему индексу с именем `  
-logstash-2018.05.21`:
+logstash-2018.05.21` выглядит следующим образом:
  
 
     # GET /<logstash-{now/d}>/_search
@@ -25,7 +25,7 @@ logstash-2018.05.21`:
 ## Common options [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options)
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyMDU0MTY3LDEzNjExNTI0MDcsLTEyMT
-A0NjExMjQsLTczNTEwMzUzNSwtMTk0Nzg5ODE2MCwtMjA4MjY3
-OTMwMl19
+eyJoaXN0b3J5IjpbLTIxMTMwNTk3NTgsMTM2MTE1MjQwNywtMT
+IxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4MTYwLC0yMDgy
+Njc5MzAyXX0=
 -->
