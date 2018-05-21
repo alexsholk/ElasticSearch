@@ -52,10 +52,14 @@ Query-string параметр `flat_settings` уменьшает вложенн�
 В случаях, когда тело запроса невозможно передать в методах, отличных от POST, его можно пережать как query-string параметр `source`. Также необходимо указать параметр `source_content_type=application/json`. 
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
-Некоторые пользователи имеют доступ к ES API через прокси, контролирующий доступ по URL к тем или иным возможностям. Для некоторых API возможно указать индексы в теле запроса, что затрудняет контроль доступа на основе URL. Чтобы запрети
+Некоторые пользователи имеют доступ к ES API через прокси, контролирующий доступ по URL к тем или иным возможностям. Для некоторых API возможно указать индексы в теле запроса, что затрудняет контроль доступа на основе URL. Чтобы запретить это следует изменить (добавить) следующий параметр в `elasticsearch.yml`:
+
+    rest.action.multi.allow_explicit_index: false
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDY2ODAwMSwxNTk2NzYyMTUwLDEyMD
-YzMzY0NDMsMTEyMTYzODY4MiwtMjQxOTI4MzUwLDMwODE1NjAx
-MiwxMzYxMTUyNDA3LC0xMjEwNDYxMTI0LC03MzUxMDM1MzUsLT
-E5NDc4OTgxNjAsLTIwODI2NzkzMDJdfQ==
+eyJoaXN0b3J5IjpbLTE1ODgzNTg5NTIsMTU5Njc2MjE1MCwxMj
+A2MzM2NDQzLDExMjE2Mzg2ODIsLTI0MTkyODM1MCwzMDgxNTYw
+MTIsMTM2MTE1MjQwNywtMTIxMDQ2MTEyNCwtNzM1MTAzNTM1LC
+0xOTQ3ODk4MTYwLC0yMDgyNjc5MzAyXX0=
 -->
