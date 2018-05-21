@@ -9,7 +9,7 @@ Query DSL — синтаксис запросов, основанный на JSO
 В этом контексте условие запроса отвечает за то, *насколько хорошо* документ соответствует нашим требованиям. Помимо отбора подходящих документов также расчитывается и параметр _score (число, показывающее соответствие запросу).
 #### Filter-контекст
 В этом контексте условие запроса решает, *подходит ли* данный документ или нет. При этом _score не затрагивается. Пример использования контекста фильтра — выборка по диапазону дат; выборка по конкретному значению поля и т. д.
-Часто используемые фильтры автоматически кэшируются E
+Часто используемые фильтры автоматически кэшируются ES. 
 
 ## Match All Query [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-all-query.html#query-dsl-match-all-query)
 ## Full text queries [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/full-text-queries.html#full-text-queries)
@@ -22,5 +22,5 @@ Query DSL — синтаксис запросов, основанный на JSO
 ## Minimum Should Match [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-minimum-should-match.html#query-dsl-minimum-should-match)
 ## Multi Term Query Rewrite [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-multi-term-rewrite.html#query-dsl-multi-term-rewrite)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4MjI4NzUsMTI2MDA4MzM5MF19
+eyJoaXN0b3J5IjpbLTYzMzI3MDAzMCwxMjYwMDgzMzkwXX0=
 -->
