@@ -8,9 +8,12 @@
 - expand_wildcards — контролирует поведение шаблонов со звёздочкой: open — совпадение с открытыми индексами, closed — с закрытыми, all — со всеми, none — совпадение отключено.
 
 ## Date math support in index names [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/date-math-index-names.html#date-math-index-names)
+Эта фича поз
+
 ## Common options [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options)
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTE1MjQwNywtMTIxMDQ2MTEyNCwtNz
-M1MTAzNTM1LC0xOTQ3ODk4MTYwLC0yMDgyNjc5MzAyXX0=
+eyJoaXN0b3J5IjpbLTc0MTg3NTIwNywxMzYxMTUyNDA3LC0xMj
+EwNDYxMTI0LC03MzUxMDM1MzUsLTE5NDc4OTgxNjAsLTIwODI2
+NzkzMDJdfQ==
 -->
