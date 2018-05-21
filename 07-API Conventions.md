@@ -27,11 +27,11 @@ logstash-2018.05.21` выглядит следующим образом:
 Общие опции, применимые ко всем REST API:
 - ?pretty=true — форматированный JSON в ответе
 - ?format=yaml — ответ в формате YAML
-- ?human=true — возврат  
+- ?human=true — возврат человекочитаемых значений даты,  
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODc3Njk2NCwxMzYxMTUyNDA3LC0xMj
-EwNDYxMTI0LC03MzUxMDM1MzUsLTE5NDc4OTgxNjAsLTIwODI2
-NzkzMDJdfQ==
+eyJoaXN0b3J5IjpbNDczNzc2MDg5LDEzNjExNTI0MDcsLTEyMT
+A0NjExMjQsLTczNTEwMzUzNSwtMTk0Nzg5ODE2MCwtMjA4MjY3
+OTMwMl19
 -->
