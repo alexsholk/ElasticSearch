@@ -214,9 +214,9 @@ Bulk API не прерывает выполнение операций, если
 
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
-ES позволяет хранить да
+ES позволяет хранить данные и предоставляет API для выборки по разным критериям. Запросы к ES осуществляются 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDExNDA3OSwtMTk0OTM0NTM1Niw1OT
+eyJoaXN0b3J5IjpbLTQwNTYzNTU2NiwtMTk0OTM0NTM1Niw1OT
 YzMDI0OTcsMTk0NTQyMjM3LDczMDY1NTQwNiwxNDAwNDgyOTUw
 LC0xMjk2NTQyMTU5LDE2NTM0MDg3MTIsNDc1MTQ1NzIyLDkzMz
 AyOTI1NiwxMDQ2MTkxMDgxLC0zMDk2MDAzOTcsMTc2NzY5MjUy
