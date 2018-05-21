@@ -45,12 +45,12 @@ Query-string параметр flat_settings уменьшает вложенно�
     GET twitter/_settings?flat_settings=true
 
 #### Fuzziness 
-Параметр fuzziness позволяет управлять нечётким совпадением; 
+Параметр fuzziness позволяет управлять нечётким совпадением; может принимать значения 0, 1, 2, являющиеся т. н. расстоянием Левенштейна (количество правок)
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDI4NTIwNywxMjA2MzM2NDQzLDExMj
-E2Mzg2ODIsLTI0MTkyODM1MCwzMDgxNTYwMTIsMTM2MTE1MjQw
-NywtMTIxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4MTYwLC
-0yMDgyNjc5MzAyXX0=
+eyJoaXN0b3J5IjpbLTEwNDM2OTI1NjMsMTIwNjMzNjQ0MywxMT
+IxNjM4NjgyLC0yNDE5MjgzNTAsMzA4MTU2MDEyLDEzNjExNTI0
+MDcsLTEyMTA0NjExMjQsLTczNTEwMzUzNSwtMTk0Nzg5ODE2MC
+wtMjA4MjY3OTMwMl19
 -->
