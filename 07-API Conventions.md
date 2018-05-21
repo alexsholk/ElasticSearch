@@ -44,9 +44,12 @@ Query-string параметр flat_settings уменьшает вложенно�
 
     GET twitter/_settings?flat_settings=true
 
+#### Fuzziness 
+
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTYzODY4MiwtMjQxOTI4MzUwLDMwOD
-E1NjAxMiwxMzYxMTUyNDA3LC0xMjEwNDYxMTI0LC03MzUxMDM1
-MzUsLTE5NDc4OTgxNjAsLTIwODI2NzkzMDJdfQ==
+eyJoaXN0b3J5IjpbMTIwNjMzNjQ0MywxMTIxNjM4NjgyLC0yND
+E5MjgzNTAsMzA4MTU2MDEyLDEzNjExNTI0MDcsLTEyMTA0NjEx
+MjQsLTczNTEwMzUzNSwtMTk0Nzg5ODE2MCwtMjA4MjY3OTMwMl
+19
 -->
