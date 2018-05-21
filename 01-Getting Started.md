@@ -214,14 +214,13 @@ Bulk API не прерывает выполнение операций, если
 
 
 ## Conclusion [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/_conclusion.html#_conclusion)
-
-
+ES позволяет хранить да
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkzNDUzNTYsNTk2MzAyNDk3LDE5ND
-U0MjIzNyw3MzA2NTU0MDYsMTQwMDQ4Mjk1MCwtMTI5NjU0MjE1
-OSwxNjUzNDA4NzEyLDQ3NTE0NTcyMiw5MzMwMjkyNTYsMTA0Nj
-E5MTA4MSwtMzA5NjAwMzk3LDE3Njc2OTI1MjYsLTE0MTc4ODc3
-NCw3NjQwNDQ1ODUsMTI2Mjc1MjM0NSwtNzEzMzA2OTgzLDEzMz
-gwMDM1MzgsMjA3MzkzNjc3OCwxNDE3NzA4NzM1LDEzNzg0MjEx
-MV19
+eyJoaXN0b3J5IjpbMTU5NDExNDA3OSwtMTk0OTM0NTM1Niw1OT
+YzMDI0OTcsMTk0NTQyMjM3LDczMDY1NTQwNiwxNDAwNDgyOTUw
+LC0xMjk2NTQyMTU5LDE2NTM0MDg3MTIsNDc1MTQ1NzIyLDkzMz
+AyOTI1NiwxMDQ2MTkxMDgxLC0zMDk2MDAzOTcsMTc2NzY5MjUy
+NiwtMTQxNzg4Nzc0LDc2NDA0NDU4NSwxMjYyNzUyMzQ1LC03MT
+MzMDY5ODMsMTMzODAwMzUzOCwyMDczOTM2Nzc4LDE0MTc3MDg3
+MzVdfQ==
 -->
