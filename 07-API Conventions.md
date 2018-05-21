@@ -56,10 +56,10 @@ Query-string параметр `flat_settings` уменьшает вложенн�
 
     rest.action.multi.allow_explicit_index: false
 
-
+В таком случае ES будет отклонять запросы с указанием индекса в теле запроса. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgzNTg5NTIsMTU5Njc2MjE1MCwxMj
-A2MzM2NDQzLDExMjE2Mzg2ODIsLTI0MTkyODM1MCwzMDgxNTYw
-MTIsMTM2MTE1MjQwNywtMTIxMDQ2MTEyNCwtNzM1MTAzNTM1LC
-0xOTQ3ODk4MTYwLC0yMDgyNjc5MzAyXX0=
+eyJoaXN0b3J5IjpbMTY2OTUxOTAxNywxNTk2NzYyMTUwLDEyMD
+YzMzY0NDMsMTEyMTYzODY4MiwtMjQxOTI4MzUwLDMwODE1NjAx
+MiwxMzYxMTUyNDA3LC0xMjEwNDYxMTI0LC03MzUxMDM1MzUsLT
+E5NDc4OTgxNjAsLTIwODI2NzkzMDJdfQ==
 -->
