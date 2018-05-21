@@ -21,13 +21,14 @@ logstash-2018.05.21` выглядит следующим образом:
 	{  
 		"query": {"match": {"test": "data"}}  
 	}
-Остальные опции можно посмотреть в оригинальной документации. 
-
+Остальные опции можно посмотреть в оригинальной [статье](https://www.elastic.co/guide/en/elasticsearch/reference/current/date-math-index-names.html#date-math-index-names). 
 
 ## Common options [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options)
+Общие опции, применимые ко все
+
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA2Mzg4NTAsMTM2MTE1MjQwNywtMT
-IxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4MTYwLC0yMDgy
-Njc5MzAyXX0=
+eyJoaXN0b3J5IjpbLTk0MTUxMzkxMiwxMzYxMTUyNDA3LC0xMj
+EwNDYxMTI0LC03MzUxMDM1MzUsLTE5NDc4OTgxNjAsLTIwODI2
+NzkzMDJdfQ==
 -->
