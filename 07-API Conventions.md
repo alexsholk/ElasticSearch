@@ -4,12 +4,12 @@
 Большинство API, имеющие параметр index, также могут работать и с несколькими индексами одновременно. Для этого указывается _all вместо конкретного индекса; список индексов через запятую (index1, index2); шаблоны со звёздочкой и исключения с минусом (index*,-index5). 
 Все мультииндексовые API поддерживают следующие query-string-параметры:
 - ignore_unavailable — проигнорировать несуществующие индексы (не выдавать ошибку)
-- 
+- allow_no_indices — проигнорировать отсутствие индексов, соответствующих шаблону со звездочкой либо _all
 
 ## Date math support in index names [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/date-math-index-names.html#date-math-index-names)
 ## Common options [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options)
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc4OTgxNjAsLTIwODI2NzkzMDJdfQ
-==
+eyJoaXN0b3J5IjpbLTM2NzU0MjE5LC0xOTQ3ODk4MTYwLC0yMD
+gyNjc5MzAyXX0=
 -->
