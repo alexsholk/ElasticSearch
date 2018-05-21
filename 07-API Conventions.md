@@ -17,12 +17,14 @@
 
     # GET /<logstash-{now/d}>/_search
 	GET /%3Clogstash-%7Bnow%2Fd%7D%3E/_search 
-	{  "query"  :  {  "match":  {  "test":  "data"  }  }  }
+	{  
+		"query": {"match": {"test": "data"}}  
+	}
 
 ## Common options [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options)
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzNTYzNzQxLDEzNjExNTI0MDcsLTEyMT
+eyJoaXN0b3J5IjpbNjEyMzY1NzMxLDEzNjExNTI0MDcsLTEyMT
 A0NjExMjQsLTczNTEwMzUzNSwtMTk0Nzg5ODE2MCwtMjA4MjY3
 OTMwMl19
 -->
