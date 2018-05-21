@@ -52,9 +52,10 @@ Query-string параметр `flat_settings` уменьшает вложенн�
 В случаях, когда тело запроса невозможно передать в методах, отличных от POST, его можно пережать как query-string параметр `source`. Также необходимо указать параметр `source_content_type=application/json`. 
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Njc2MjE1MCwxMjA2MzM2NDQzLDExMj
-E2Mzg2ODIsLTI0MTkyODM1MCwzMDgxNTYwMTIsMTM2MTE1MjQw
-NywtMTIxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4MTYwLC
-0yMDgyNjc5MzAyXX0=
+eyJoaXN0b3J5IjpbLTEwNzYyODAxMDgsMTU5Njc2MjE1MCwxMj
+A2MzM2NDQzLDExMjE2Mzg2ODIsLTI0MTkyODM1MCwzMDgxNTYw
+MTIsMTM2MTE1MjQwNywtMTIxMDQ2MTEyNCwtNzM1MTAzNTM1LC
+0xOTQ3ODk4MTYwLC0yMDgyNjc5MzAyXX0=
 -->
