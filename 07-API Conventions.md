@@ -48,12 +48,13 @@ Query-string параметр `flat_settings` уменьшает вложенн�
 Параметр `fuzziness` позволяет управлять нечётким совпадением; может принимать значения 0, 1, 2, являющиеся расстоянием Левенштейна (количество правок). 
 #### Трассировка ошибок
 Для включения трассировки ошибок в ответе сервера добавьте query-string параметр `error_trace=true`
+#### Передача тела запроса по URL
 
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4ODI1MjYzLDEyMDYzMzY0NDMsMTEyMT
-YzODY4MiwtMjQxOTI4MzUwLDMwODE1NjAxMiwxMzYxMTUyNDA3
-LC0xMjEwNDYxMTI0LC03MzUxMDM1MzUsLTE5NDc4OTgxNjAsLT
-IwODI2NzkzMDJdfQ==
+eyJoaXN0b3J5IjpbMTk1MTU0NTYxNiwxMjA2MzM2NDQzLDExMj
+E2Mzg2ODIsLTI0MTkyODM1MCwzMDgxNTYwMTIsMTM2MTE1MjQw
+NywtMTIxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4MTYwLC
+0yMDgyNjc5MzAyXX0=
 -->
