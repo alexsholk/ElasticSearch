@@ -28,11 +28,12 @@ logstash-2018.05.21` выглядит следующим образом:
 - ?pretty=true — форматированный JSON в ответе
 - ?format=yaml — ответ в формате YAML
 - ?human=true — возврат значений даты, количества байт в удобном формате (1h, 1kb), помимо значений в миллисекундах и байтах. По умолчанию выключен. 
-- 
+#### Даты и математика
+В условиях наподо 
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MDAwOTM1LDEzNjExNTI0MDcsLTEyMT
-A0NjExMjQsLTczNTEwMzUzNSwtMTk0Nzg5ODE2MCwtMjA4MjY3
-OTMwMl19
+eyJoaXN0b3J5IjpbLTU5Mzg1MzEyMSwxMzYxMTUyNDA3LC0xMj
+EwNDYxMTI0LC03MzUxMDM1MzUsLTE5NDc4OTgxNjAsLTIwODI2
+NzkzMDJdfQ==
 -->
