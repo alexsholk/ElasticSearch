@@ -29,31 +29,31 @@ logstash-2018.05.21` выглядит следующим образом:
 - ?format=yaml — ответ в формате YAML
 - ?human=true — возврат значений даты, количества байт в удобном формате (1h, 1kb), помимо значений в миллисекундах и байтах. По умолчанию выключен. 
 #### Даты и математика
-В условиях наподобие gt и lt можно использовать выражения такого плана: now+1h (через час), now/d (начало сегодняшнего дня 00:00). Подробнее в [оригинале](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#date-math).  
+В условиях наподобие `gt` и `lt можно использовать выражения такого плана: now+1h (через час), now/d (начало сегодняшнего дня 00:00). Подробнее в [оригинале](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#date-math).  
 #### Фильтрация ответа
-Query-string параметр позволяет указать поля, которые нужно вернуть в ответе, например:
+Query-string параметр `filter_path` позволяет указать поля, которые нужно вернуть в ответе, например:
 
     GET /_search?q=*&filter_path=took,hits.hits._id,hits.hits._score
 При указании полей можно использовать шаблоны со звёздочкой и даже с двумя звёздочками (когда путь к полю неизвестен/произвольный). Также можно исключить некоторые поля поставив минус перед именем. Подробности [тут](https://www.elastic.co/guide/en/elasticsearch/reference/current/common-options.html#common-options-response-filtering). 
-Однако если нужно отфильтровать поля из _source, нужно воспользоваться комбинацией параметров filter_path и _source:
+Однако если нужно отфильтровать поля из _source, нужно воспользоваться комбинацией параметров `filter_path` и `_source`:
 
     GET /_search?filter_path=hits.hits._source&_source=title
 
 #### Flat settings
-Query-string параметр flat_settings уменьшает вложенность массивов в ответе касательно настроек:
+Query-string параметр `flat_settings` уменьшает вложенность массивов в ответе касательно настроек:
 
     GET twitter/_settings?flat_settings=true
 
 #### Fuzziness 
-Параметр fuzziness позволяет управлять нечётким совпадением; может принимать значения 0, 1, 2, являющиеся расстоянием Левенштейна (количество правок). 
+Параметр `fuzziness` позволяет управлять нечётким совпадением; может принимать значения 0, 1, 2, являющиеся расстоянием Левенштейна (количество правок). 
 #### Трассировка ошибок
-Для включения трассировки ошибок в ответе сервера добавьте query-string параметр error_trace=t
+Для включения трассировки ошибок в ответе сервера добавьте query-string параметр `error_trace=true`
 
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM2OTEzNDEsMTIwNjMzNjQ0MywxMT
-IxNjM4NjgyLC0yNDE5MjgzNTAsMzA4MTU2MDEyLDEzNjExNTI0
-MDcsLTEyMTA0NjExMjQsLTczNTEwMzUzNSwtMTk0Nzg5ODE2MC
-wtMjA4MjY3OTMwMl19
+eyJoaXN0b3J5IjpbMTQ4NzM5NzY4MSwxMjA2MzM2NDQzLDExMj
+E2Mzg2ODIsLTI0MTkyODM1MCwzMDgxNTYwMTIsMTM2MTE1MjQw
+NywtMTIxMDQ2MTEyNCwtNzM1MTAzNTM1LC0xOTQ3ODk4MTYwLC
+0yMDgyNjc5MzAyXX0=
 -->
