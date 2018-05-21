@@ -40,11 +40,13 @@ Query-string параметр позволяет указать поля, кот
     GET /_search?filter_path=hits.hits._source&_source=title
 
 #### Flat settings
-Query-string параметр flat_settings уменьшае
+Query-string параметр flat_settings уменьшает вложенность массивов в ответе касательно настроек:
+
+    GET twitter/_settings?flat_settings=true
 
 ## URL-based access control [#](https://www.elastic.co/guide/en/elasticsearch/reference/current/url-access-control.html#url-access-control)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDQxODk1NywtMjQxOTI4MzUwLDMwOD
+eyJoaXN0b3J5IjpbMTEyMTYzODY4MiwtMjQxOTI4MzUwLDMwOD
 E1NjAxMiwxMzYxMTUyNDA3LC0xMjEwNDYxMTI0LC03MzUxMDM1
 MzUsLTE5NDc4OTgxNjAsLTIwODI2NzkzMDJdfQ==
 -->
